@@ -10,7 +10,7 @@ public class Temperature {
         this.celsius = celsius;
     }
 
-    public void getFahrenheit(int celsius) {
+    public void calcFahrenheit(int celsius) {
         this.fahrenheit = (celsius * 9/5) + 32;
     }
 
@@ -18,7 +18,7 @@ public class Temperature {
         return this.fahrenheit + "°F";
     }
 
-    public void getCelsius(int fahrenheit) {
+    public void calcCelsius(int fahrenheit) {
         this.celsius = (fahrenheit - 32) * 5/9;
     }
 
