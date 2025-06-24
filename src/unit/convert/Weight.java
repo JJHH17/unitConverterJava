@@ -53,4 +53,20 @@ public class Weight {
     public void ouncesToPounds(double ounces) {
         this.pounds = ounces / 16;
     }
+
+    public String getGrams() {
+        return this.grams + " grams";
+    }
+
+    public String getKilograms() {
+        return this.kilograms + " Kilograms";
+    }
+
+    public String getPounds() {
+        return this.pounds + " pounds";
+    }
+
+    public String getOunces() {
+        return this.ounces + " ounces";
+    }
 }
