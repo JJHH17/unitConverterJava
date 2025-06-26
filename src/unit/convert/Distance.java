@@ -34,24 +34,31 @@ public class Distance {
     }
 
     public void metersToMillimeters(double meters) {
+        this.millimeters = meters / 1000;
     }
 
     public void metersToCentimeters(double meters) {
+        this.centimeters = meters * 100;
     }
 
     public void metersToKilometers(double meters) {
+        this.kilometers = meters / 1_000;
     }
 
     public void metersToInches(double meters) {
+        this.inches = meters * 39.37;
     }
 
     public void metersToFeet(double meters) {
+        this.feet = meters * 3.281;
     }
 
     public void metersToMiles(double meters) {
+        this.miles = meters / 1_609;
     }
 
     public void KilometersToMillimeters(double kilometers) {
+        this.millimeters = kilometers * 1_000_000;
     }
 
     public void kilometersToCentimeters(double kilometers) {
