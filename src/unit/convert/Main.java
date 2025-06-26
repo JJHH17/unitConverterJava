@@ -12,16 +12,6 @@ public class Main {
             if (userInput.equalsIgnoreCase("exit")) {
                 break;
             }
-
-            if (userInput.equalsIgnoreCase("to celsius")) {
-                System.out.println("Enter a temperature in celsius:");
-                int celsiusInput = Integer.valueOf(scanner.nextLine());
-
-                Temperature celsiusToFahrenheit = new Temperature(0, celsiusInput);
-                celsiusToFahrenheit.calcFahrenheit(celsiusInput);
-
-                System.out.println(celsiusToFahrenheit.getFahrenheit());
-            }
         }
     }
 }
