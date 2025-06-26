@@ -86,4 +86,40 @@ public class Distance {
 
     public void inchesToMiles(double inches) {
     }
+
+    public void feetToMillimeters(double feet) {
+    }
+
+    public void feetToCentimeters(double feet) {
+    }
+
+    public void feetToMeters(double feet) {
+    }
+
+    public void feetToKilometers(double feet) {
+    }
+
+    public void feetToInches(double feet) {
+    }
+
+    public void feetToMiles(double feet) {
+    }
+
+    public void milesToMillimeters(double miles) {
+    }
+
+    public void milesToCentimeters(double miles) {
+    }
+
+    public void milesToMeters(double miles) {
+    }
+
+    public void milesToKilometers(double miles) {
+    }
+
+    public void milesToInches(double miles) {
+    }
+
+    public void milesToFeet(double miles) {
+    }
 }
