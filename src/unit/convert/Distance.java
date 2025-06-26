@@ -33,29 +33,39 @@ public class Distance {
         this.miles = millimeters / 1_609_344;
     }
 
-    public void centimetersToMillimeters(double centimeters) {
-        this.millimeters = centimeters * 10;
+    public void metersToMillimeters(double meters) {
     }
 
-    public void centimetersToMeters(double centimeters) {
-        this.meters = centimeters / 100;
+    public void metersToCentimeters(double meters) {
     }
 
-    public void centimetersToKilometers(double centimeters) {
-        this.kilometers = centimeters / 100_000;
+    public void metersToKilometers(double meters) {
     }
 
-    public void centimetersToInches(double centimeters) {
-        this.inches = centimeters / 2.54;
+    public void metersToInches(double meters) {
     }
 
-    public void centimetersToFeet(double centimeters) {
-        this.feet = centimeters / 30.48;
+    public void metersToFeet(double meters) {
     }
 
-    public void centimetersToMiles(double centimeters) {
-        this.miles = centimeters / 160_000;
+    public void metersToMiles(double meters) {
     }
 
+    public void KilometersToMillimeters(double kilometers) {
+    }
 
+    public void kilometersToCentimeters(double kilometers) {
+    }
+
+    public void kilometersToMeters(double kilometers) {
+    }
+
+    public void kilometersToInches(double kilometers) {
+    }
+
+    public void KilometersToFeet(double kilometers) {
+    }
+
+    public void kilometersToMiles(double kilometers) {
+    }
 }
