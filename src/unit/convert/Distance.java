@@ -68,4 +68,22 @@ public class Distance {
 
     public void kilometersToMiles(double kilometers) {
     }
+
+    public void inchesToMillimeters(double inches) {
+    }
+
+    public void inchesToCentimeters(double inches) {
+    }
+
+    public void inchesToMeters(double inches) {
+    }
+
+    public void inchesToKilometers(double inches) {
+    }
+
+    public void inchesToFeet(double inches) {
+    }
+
+    public void inchesToMiles(double inches) {
+    }
 }
