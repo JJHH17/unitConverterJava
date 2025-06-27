@@ -62,15 +62,19 @@ public class Distance {
     }
 
     public void kilometersToCentimeters(double kilometers) {
+        this.centimeters = kilometers * 100_000;
     }
 
     public void kilometersToMeters(double kilometers) {
+        this.meters = kilometers * 1_000;
     }
 
     public void kilometersToInches(double kilometers) {
+        this.inches = kilometers * 39_370;
     }
 
     public void KilometersToFeet(double kilometers) {
+        this.feet = kilometers * 3_281;
     }
 
     public void kilometersToMiles(double kilometers) {
