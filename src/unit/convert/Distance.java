@@ -150,6 +150,35 @@ public class Distance {
     }
 
     public void milesToFeet(double miles) {
-
+        this.feet = miles * 5_280;
     }
+
+    public double getCentimeters() {
+        return centimeters;
+    }
+
+    public double getMillimeters() {
+        return millimeters;
+    }
+
+    public double getKilometers() {
+        return kilometers;
+    }
+
+    public double getMeters() {
+        return meters;
+    }
+
+    public double getInches() {
+        return inches;
+    }
+
+    public double getFeet() {
+        return feet;
+    }
+
+    public double getMiles() {
+        return miles;
+    }
+
 }
