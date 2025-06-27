@@ -130,21 +130,26 @@ public class Distance {
     }
 
     public void milesToMillimeters(double miles) {
-
+        this.millimeters = miles * 1_609_344;
     }
 
     public void milesToCentimeters(double miles) {
+        this.centimeters = miles * 160_900;
     }
 
     public void milesToMeters(double miles) {
+        this.meters = miles * 1_609;
     }
 
     public void milesToKilometers(double miles) {
+        this.kilometers = miles * 1.609;
     }
 
     public void milesToInches(double miles) {
+        this.inches = miles * 63_360;
     }
 
     public void milesToFeet(double miles) {
+
     }
 }
