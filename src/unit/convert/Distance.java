@@ -106,25 +106,31 @@ public class Distance {
     }
 
     public void feetToMillimeters(double feet) {
-
+        this.millimeters = feet * 304.8;
     }
 
     public void feetToCentimeters(double feet) {
+        this.centimeters = feet * 30.48;
     }
 
     public void feetToMeters(double feet) {
+        this.meters = feet / 3.281;
     }
 
     public void feetToKilometers(double feet) {
+        this.kilometers = feet / 3_281;
     }
 
     public void feetToInches(double feet) {
+        this.inches = feet * 12;
     }
 
     public void feetToMiles(double feet) {
+        this.miles = feet / 5_280;
     }
 
     public void milesToMillimeters(double miles) {
+
     }
 
     public void milesToCentimeters(double miles) {
