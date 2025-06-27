@@ -78,27 +78,35 @@ public class Distance {
     }
 
     public void kilometersToMiles(double kilometers) {
+        this.miles = kilometers / 1.609;
     }
 
     public void inchesToMillimeters(double inches) {
+        this.millimeters = inches * 25.4;
     }
 
     public void inchesToCentimeters(double inches) {
+        this.centimeters = inches * 2.54;
     }
 
     public void inchesToMeters(double inches) {
+        this.meters = inches / 39.37;
     }
 
     public void inchesToKilometers(double inches) {
+        this.kilometers = inches / 39_370;
     }
 
     public void inchesToFeet(double inches) {
+        this.feet = inches / 12;
     }
 
     public void inchesToMiles(double inches) {
+        this.miles = inches / 63_360;
     }
 
     public void feetToMillimeters(double feet) {
+
     }
 
     public void feetToCentimeters(double feet) {
