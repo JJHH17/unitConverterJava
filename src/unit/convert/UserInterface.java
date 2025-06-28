@@ -43,6 +43,7 @@ public class UserInterface {
 
         System.out.println("Convert to what? millimeters | centimeters | meters | " +
                 "kilometers | inches | feet | miles");
+        String unitTwo = scanner.nextLine();
 
         switch (unitOne.toLowerCase()) {
             case ("millimeters"):
@@ -76,7 +77,32 @@ public class UserInterface {
     }
 
     public void getWeight() {
+        System.out.println("Convert from what? grams | kilograms | pounds | ounces");
+        String unitOne = scanner.nextLine();
 
+        System.out.println("Enter a unit to convert");
+        int value = Integer.valueOf(scanner.nextLine());
+
+        System.out.println("Convert from what? grams | kilograms | pounds | ounces");
+        String unitTwo = scanner.nextLine();
+
+        switch (unitOne.toLowerCase()) {
+            case ("grams"):
+                // enter code
+                break;
+
+            case ("kilograms"):
+                // enter code
+                break;
+
+            case ("pounds"):
+                // enter code
+                break;
+
+            case ("ounces"):
+                // enter code
+                break;
+        }
     }
 
     public void getTemperature() {
