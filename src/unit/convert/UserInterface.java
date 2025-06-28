@@ -34,7 +34,45 @@ public class UserInterface {
     }
 
     public void getDistance() {
+        System.out.println("Convert from what? millimeters | centimeters | meters | " +
+                "kilometers | inches | feet | miles");
+        String unitOne = scanner.nextLine();
 
+        System.out.println("Enter a unit to convert");
+        int value = Integer.valueOf(scanner.nextLine());
+
+        System.out.println("Convert to what? millimeters | centimeters | meters | " +
+                "kilometers | inches | feet | miles");
+
+        switch (unitOne.toLowerCase()) {
+            case ("millimeters"):
+                // enter code
+                break;
+
+            case ("centimeters"):
+                // enter code
+                break;
+
+            case ("meters"):
+                // enter code
+                break;
+
+            case ("kilometers"):
+                // enter code
+                break;
+
+            case ("inches"):
+                // enter code
+                break;
+
+            case ("feet"):
+                // enter code
+                break;
+
+            case ("miles"):
+                // enter code
+                break;
+        }
     }
 
     public void getWeight() {
